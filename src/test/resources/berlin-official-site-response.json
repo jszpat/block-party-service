@@ -1,0 +1,27 @@
+{
+  "messages": {
+    "messages": [],
+    "success": null
+  },
+  "results": {
+    "count": 1,
+    "items_per_page": 0
+  },
+  "index": [
+    {
+      "id": "52",
+      "ort": "Bad Belzig",
+      "bezeichnung": "57. Burgfestwoche Bad Belzig und 22. Altstadtsommer",
+      "strasse": "Bad Belzig",
+      "plz": "14806",
+      "von": "2020-08-22",
+      "bis": "2020-08-30",
+      "zeit": "",
+      "veranstalter": "Bad Belziger Festverein, Wiesenburger Str. 6, 14806 Bad Belzig",
+      "mail": "kontakt@festverein-bad-belzig.de",
+      "www": "www.festverein-bad-belzig.de",
+      "bemerkungen": ""
+    }
+  ],
+  "item": []
+}

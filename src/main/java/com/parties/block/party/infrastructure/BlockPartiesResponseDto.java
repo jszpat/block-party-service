@@ -44,16 +44,16 @@ class BlockPartiesResponseDto
 
         private final String additionalInfo;
 
-        public PartyDto(@JsonProperty("ort") final String location,
-                        @JsonProperty("bezeichnung") final String theme,
-                        @JsonProperty("strasse") final String streetName,
-                        @JsonProperty("plz") final String postCode,
-                        @JsonProperty("von") final LocalDate startDate,
-                        @JsonProperty("bis") final LocalDate endDate,
-                        @JsonProperty("veranstalter") final String organizer,
-                        @JsonProperty("mail") final String emailAddress,
-                        @JsonProperty("www") final String websiteUrl,
-                        @JsonProperty("bemerkungen") final String additionalInfo)
+        PartyDto(@JsonProperty("ort") final String location,
+                 @JsonProperty("bezeichnung") final String theme,
+                 @JsonProperty("strasse") final String streetName,
+                 @JsonProperty("plz") final String postCode,
+                 @JsonProperty("von") final LocalDate startDate,
+                 @JsonProperty("bis") final LocalDate endDate,
+                 @JsonProperty("veranstalter") final String organizer,
+                 @JsonProperty("mail") final String emailAddress,
+                 @JsonProperty("www") final String websiteUrl,
+                 @JsonProperty("bemerkungen") final String additionalInfo)
         {
             this.location = location;
             this.theme = theme;

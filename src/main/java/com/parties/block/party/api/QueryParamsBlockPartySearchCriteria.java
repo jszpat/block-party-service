@@ -2,10 +2,12 @@ package com.parties.block.party.api;
 
 import com.parties.block.party.domain.BlockPartySearchCriteria;
 import lombok.EqualsAndHashCode;
+import lombok.ToString;
 
 import java.time.LocalDate;
 import java.util.Optional;
 
+@ToString
 @EqualsAndHashCode
 class QueryParamsBlockPartySearchCriteria implements BlockPartySearchCriteria
 {

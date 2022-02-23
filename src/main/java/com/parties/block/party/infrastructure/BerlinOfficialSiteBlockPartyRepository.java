@@ -40,10 +40,12 @@ class BerlinOfficialSiteBlockPartyRepository implements BlockPartyRepository
 
         try
         {
+            log.debug("About to call Berlin official site for block parties for keyword: {}", keyword);
             final BlockPartiesResponseDto partiesResponseDto = restTemplate.getForObject(uri, BlockPartiesResponseDto.class);
 
             if (partiesResponseDto != null)
             {
+                log.debug("Berlin official site successfully returned {} block parties for keyword: {}", partiesResponseDto.getParties().size(), keyword);
                 return partiesResponseDto.getParties()
                         .stream()
                         .map(blockPartyMapper::toDomainObject)
